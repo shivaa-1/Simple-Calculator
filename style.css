@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color: burlywood;
+    width: 300px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.takevalue label{
+    font-size: 2em;
+    font-weight: lighter; 
+}
+
+.container input{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.btn-cont button{
+    margin: 10px;
+    /* padding: 10px; */
+    border-radius: 50%;
+}
+
+.two-btn{
+    font-size: 20px;
+}
+
+.reset{
+    margin: auto;
+    padding: 8px 30px;
+}
+
+.container input:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+}
+
+.btn-cont button:hover{
+    cursor: pointer;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.reset:hover{
+    background-color: cornflowerblue;
+    color: blanchedalmond;
+}
